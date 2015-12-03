@@ -2,3 +2,16 @@
 2. Open index.html in your browser
 3. type in the access code
 4. click the button. Wait for a while, now you ready to go.
+
+
+Pending Work: 
+
+- [ ] Find the closes open milestone
+- [ ] Map issues by state
+- [ ] Display different color for each card type
+- [ ] change the personal access token to Github Login
+- [ ] deploy to github pages
+- [ ] can show/hide columns
+- [ ] can move card from one colune to another (it's actually change state)
+- [ ] can assign user to card. 
+
