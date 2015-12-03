@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/taffy-min.js"></script>
+		<script src="js/vendor/github.js"></script>
+		<script src="js/vendor/underscore-min.js"></script>
+		<link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    </head>
+    <body>
+		
+		<div class="container">
+			
+			<h1>Iterations</h1>
+			
+			<div>
+				
+				<input type="text" id="github-token" placeholder="Github Token"/> 
+				<button id="fetch-milestone-btn">Fetch Open Milestones</button>
+			</div>
+			<div>
+				Open Milestones: 
+				<div id="milestones">
+					
+				</div>
+			</div>	
+			
+		</div>
+		
+		<div class="workflow clearfix" id="workflow">
+			
+			
+			
+		</div>
+		
+		<div class="footer">
+			Created by Michael Chen.
+		</div>
+
+<script id="state-col-template" type="text/x-template">
+<div class="state-col" id="state-<%= index %>">
+	
+	<h2><%= name %></h2>
+	
+	<div class="cards">
+		
+	</div>
+	
+</div>
+</script>
+
+<script id="card-template" type="text/x-template">
+
+<div class="card" id="card-<%= number %>">
+	<h3><%= title %></h3>
+	<p><%= body %></p>
+	<div class="meta">作者信息</div>
+</div>
+
+</script>
+
+<script id="milestone-template" type="text/x-template">
+
+<a href="#" class="milestone-link" data-milestone-number="<%= number %>"><%= title %></a>
+	
+</script>
+
+
+<script type="text/javascript" src="js/app.js"></script>
+<script>
+
+</script>
+    </body>
+</html>
